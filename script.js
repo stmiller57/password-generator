@@ -17,26 +17,21 @@ var upper = ["ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("")];
 var nums = ["0123456789".split("")];
 var special = ["!#$%&'()*+,-./:;<=>?@[\]^_`{|}~".split("")];
 
-// Prompts for password characters
+// Confirms for password characters
 var lower = confirm("Would you like lowercase letters in your password?");
-alert(lower);
 var upper = confirm("Would you like uppercase letters in your password?");
-alert(upper);
 var nums = confirm("Would you like numeric characters in your password?");
-alert(nums);
 var special = confirm("Would you like special characters in your password?");
-alert(special);
 
-// function generatePassword() {
-//   return "Your password goes here!";
-// }
+function generatePassword() {
+}
 
-// // Write password to the #password input
-// function writePassword() {
-//   var password = generatePassword();
-//   var passwordText = document.querySelector("#password");
-//   passwordText.value = password;
-// }
+// Write password to the #password input
+function writePassword() {
+  var password = generatePassword();
+  var passwordText = document.querySelector("#password");
+  passwordText.value = password;
+}
 
-// // Add event listener to generate button
-// generateBtn.addEventListener("click", writePassword);
+// Add event listener to generate button
+generateBtn.addEventListener("click", writePassword);
