@@ -1,6 +1,5 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
-var password = "";
 
 // Password length
 var options = prompt("How many characters would you like in your password?");
@@ -17,7 +16,7 @@ var lower = ["abcdefghijklmnopqrstuvwxyz".split("")];
 var upper = ["ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("")];
 var nums = ["0123456789".split("")];
 var special = ["!#$%&'()*+,-./:;<=>?@[\]^_`{|}~".split("")];
-var choices = [lower, upper, nums, special];
+var selections = [lower, upper, nums, special];
 
 // Confirms for password characters
 var lower = confirm("Would you like lowercase letters in your password?");
@@ -25,6 +24,14 @@ var upper = confirm("Would you like uppercase letters in your password?");
 var nums = confirm("Would you like numeric characters in your password?");
 var special = confirm("Would you like special characters in your password?");
 
+// Function to generate password
+function generatePassword() {
+  var password = "";
+  for (i = 0; i < options; i++) {
+    password = selections[Math.floor(Math.random) * options.length];
+    return password;
+  }
+}
 
 // Write password to the #password input
 function writePassword() {
