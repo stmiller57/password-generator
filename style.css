@@ -14,7 +14,7 @@ body,
 
 body {
   font-family: sans-serif;
-  background-color: purple;
+  background-color: darkorange;
 }
 
 .wrapper {
@@ -46,7 +46,7 @@ header {
   content: " ";
   display: block;
   width: 100%;
-  background: #e7e9eb;
+  background: blue;
   height: 2px;
 }
 
@@ -62,7 +62,7 @@ header {
   content: " ";
   display: block;
   width: 100%;
-  background: #e7e9eb;
+  background:blue;
   height: 2px;
 }
 
@@ -112,7 +112,7 @@ button[disabled] {
   text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
-  border: 2px dashed #c0c7cf;
+  border: 2px dashed blue;
   border-radius: 6px;
   resize: none;
   overflow: hidden;
