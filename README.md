@@ -9,3 +9,5 @@ I then set about defining which characters would be used in the password through
 
 ## Final steps
 The final major step was devising a "for loop" that would iterate through the character set the user defined through her selections in the confirm boxes. The loop produced a password of the user's selected length and with the character sets she wanted included. 
+
+https://stmiller57.github.io/password-generator/.
