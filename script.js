@@ -2,10 +2,12 @@
 var generateBtn = document.querySelector("#generate");
 // Function to generate password
 function generatePassword() {
-  // variable for characters that can be used in password
+  // variables for generate password function
+  var password = "";
   var charSet = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXTZabcdefghiklmnopqrstuvwxyz#@!%&()/"
   // Password length
   var options = prompt("How many characters would you like in your password?");
+  var integer = parseInt(options, 10);
   if (options < 8 || options > 128) {
     alert("Password length should be 8-128 characters. Please try again.");
     prompt("How many characters would you like in your password?");
@@ -19,10 +21,9 @@ function generatePassword() {
   var nums = confirm("Would you like numeric characters in your password?");
   var special = confirm("Would you like special characters in your password?");
   for (var i = 0; i < options; i++) {
-    var password = "";
     var password = charSet[Math.floor(Math.random() * options.length)];
-    return password;
   }
+  return password;
 }
 // Write password to the #password input
 function writePassword() {
