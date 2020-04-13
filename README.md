@@ -13,6 +13,7 @@ The final major step was devising a "for loop" that would iterate through the ch
 
 ### Deployed application and repo
 Deployed application: https://stmiller57.github.io/password-generator/
+
 Repo: https://github.com/stmiller57/password-generator
 
 ### Screenshot
