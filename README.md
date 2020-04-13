@@ -15,4 +15,5 @@ The final major step was devising a "for loop" that would iterate through the ch
 https://stmiller57.github.io/password-generator/
 
 ### Screenshot
-![ScreenShot](https://raw.githubusercontent.com/stmiller57/whats-the-weather/master/assets/Weather%20dashboard.png)
+![ScreenShot](https://raw.githubusercontent.com/stmiller57/password-generator/master/assets/Intro.png)
+![ScreenShot](https://raw.githubusercontent.com/stmiller57/password-generator/master/assets/Intro.png)
