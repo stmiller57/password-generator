@@ -17,5 +17,4 @@ Deployed application: https://stmiller57.github.io/password-generator/
 Repo: https://github.com/stmiller57/password-generator
 
 ### Screenshot
-![ScreenShot](https://raw.githubusercontent.com/stmiller57/password-generator/master/assets/Intro.png)
-![ScreenShot](https://raw.githubusercontent.com/stmiller57/password-generator/master/assets/Generated%20password.png)
+![ScreenShot](https://raw.githubusercontent.com/stmiller57/password-generator/master/assets/passwordScreen.png)
